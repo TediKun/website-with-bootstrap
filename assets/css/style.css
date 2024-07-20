@@ -1,0 +1,77 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+::-webkit-selection {
+    background-color: #cce2ff;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+::-moz-selection {
+    background-color: #cce2ff;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+::selection {
+    background-color: #cce2ff;
+    color: rgba(0, 0, 0, 0.87);
+}
+.about,
+.book,
+.service-faq,
+.contact {
+    scroll-margin-top: 4rem !important;
+}
+.nav-link:where(:hover, :focus) {
+    background-color: rgb(0, 134, 251) !important;
+    padding-left: 0.5rem !important;
+    color: rgb(238, 238, 238) !important;
+}
+
+.hero {
+    width: 100%;
+    margin-top: 3.5rem;
+    background: rgb(47, 47, 47);
+    background: linear-gradient(
+            120deg,
+            rgba(47, 47, 47, 1) 0%,
+            rgba(0, 0, 0, 0.637) 49%,
+            rgba(59, 59, 59, 1) 100%
+        ),
+        url("../img/book5.webp");
+    background-position: center;
+    background-size: cover;
+}
+.service-faq {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 3.5rem;
+    background: rgb(47, 47, 47);
+    background: linear-gradient(
+            120deg,
+            rgba(47, 47, 47, 0.225) 0%,
+            rgba(0, 0, 0, 0.637) 49%,
+            rgba(59, 59, 59, 0.342) 100%
+        ),
+        url("../img/book8.webp");
+    background-position: center;
+    background-size: cover;
+}
+.hero .container-fluid {
+    height: 80vh;
+}
+.card-content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.slider-content {
+    width: 100% !important;
+    min-width: 2600px !important;
+}
+.slider-content .card {
+    width: 350px !important;
+}
+.form-contact {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 500px;
+}
